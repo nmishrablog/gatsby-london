@@ -33,7 +33,7 @@ const Layout = props => {
                 <Link to={`/about`}>About</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/projects`}>projects</Link>
               </li>
             </ul>
           </nav>
@@ -44,30 +44,23 @@ const Layout = props => {
           </div>
           <div className="site-head-right">
             <div className="social-links">
+              
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
+                href="https://twitter.com/_naveenmishra"
                 title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Twitter
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
+               <a
+                href="https://naveenmishra.substack.com"
+                title="Twitter"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RSS
-              </Link>
+                Subscribe
+              </a>
             </div>
           </div>
         </div>
